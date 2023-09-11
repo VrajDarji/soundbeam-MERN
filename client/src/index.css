@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@300;400&family=Public+Sans:wght@200&family=Quicksand&family=Raleway:wght@300;500&family=Wix+Madefor+Display&display=swap");
+
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  font-family: "Barlow", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
+  scroll-behavior: smooth;
+  background: #2d2d2d;
+}
+button {
+  transition: all 0.3s ease-in;
+}
+.hh {
+  background-image: url("https://static.wixstatic.com/media/82fcd3_1e4cb7a7053948998237a43286bee5bf~mv2_d_3840_1470_s_2.jpg/v1/fill/w_1899,h_940,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/82fcd3_1e4cb7a7053948998237a43286bee5bf~mv2_d_3840_1470_s_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hhh {
+  background-image: url("https://static.wixstatic.com/media/82fcd3_0d16229674fd4698b2a7a99a34d42de1~mv2.jpg/v1/fill/w_1519,h_772,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/82fcd3_0d16229674fd4698b2a7a99a34d42de1~mv2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hhhh {
+  background-image: url("https://static.wixstatic.com/media/82fcd3_7b50ff02a3dd411fac2e6ced36f2aed0~mv2.png/v1/fill/w_610,h_334,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Model_Strip_Single.png");
+  background-position: 10%;
+  background-repeat: no-repeat;
+  /* background-size:; */
+  /* background-attachment: fixed;   */
+}
+.hhhhh {
+  background-image: url("https://static.wixstatic.com/media/82fcd3_6722574f5e26430090bb86df75c063ae~mv2_d_4724_3072_s_4_2.jpg/v1/fill/w_1519,h_654,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/82fcd3_6722574f5e26430090bb86df75c063ae~mv2_d_4724_3072_s_4_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cart {
+  transition: width 0.7s ease-out;
+}
+.overflow-y-scroll::-webkit-scrollbar {
+  display: none;
+}
+.qq {
+  transition: opacity 0.5s ease-in;
+}
+.g2 {
+  grid-template-columns: 70% 27%;
+}
+.skeleton {
+  animation: skeleton-loding 1s linear infinite alternate;
+}
+@keyframes skeleton-loding {
+  0% {
+    background-color: hsl(0, 0%, 21%);
+  }
+  100% {
+    background-color: hsl(0, 0%, 26%);
+  }
+}
