@@ -58,8 +58,8 @@ function Shop() {
     price: sub * 100,
     quantity: qt,
     name: "Soundbeam ERD - 3083",
-    success_url: "http://localhost:3000/success",
-    cancel_url: "http://localhost:3000/cancel",
+    success_url: "https://soundbeam-mern.vercel.app/",
+    cancel_url: "https://soundbeam-mern.vercel.app/",
   };
 
   const sendCheckout = async () => {
