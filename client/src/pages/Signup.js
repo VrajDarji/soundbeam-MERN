@@ -53,7 +53,7 @@ function Signup() {
       },
       body: JSON.stringify(data),
     };
-    const url = "http://localhost:8080/api/v1/user";
+    const url = "https://soundbeam-server.cyclic.app/api/v1/user";
     const response = await fetch(url, options);
     try {
       if (response.ok) {
