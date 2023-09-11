@@ -19,7 +19,7 @@ function Cart() {
         "Content-Type": "application/json",
       },
     };
-    const url = "http://localhost:8080/api/v1/data";
+    const url = "https://soundbeam-server.cyclic.app/api/v1/data";
     const response = await fetch(url, options);
     try {
       if (response.ok) {
@@ -46,7 +46,7 @@ function Cart() {
         "Content-Type": "application/json",
       },
     };
-    const url = `http://localhost:8080/api/v1/data/${id}`;
+    const url = `https://soundbeam-server.cyclic.app/api/v1/data/${id}`;
     const response = await fetch(url, options);
     try {
       if (response.ok) {
@@ -75,7 +75,7 @@ function Cart() {
       },
       body: JSON.stringify(checkoutData),
     };
-    const url = "http://localhost:8080/create-checkout-session";
+    const url = "https://soundbeam-server.cyclic.app/create-checkout-session";
     const response = await fetch(url, options);
     try {
       if (response.ok) {
