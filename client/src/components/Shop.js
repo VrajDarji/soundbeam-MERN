@@ -114,7 +114,7 @@ function Shop() {
     <>
       {checkoutLoading ? (
         <div className="fixed w-[100vw] h-[100vh] bg-[rgba(255,255,255,0.7)] flex justify-center items-center">
-          <img src={load} alt="" className="h-[5vh]" />
+          <img src={load} alt="" className="h-[5vh]" loading="lazy"/>
           <p className="text-white">Please Wait</p>
         </div>
       ) : (
@@ -130,7 +130,7 @@ function Shop() {
           </nav>
           <div className="grid w-full grid-cols-2 gap-4 h-fit">
             <div className="flex flex-col w-full gap-2 px-10 py-3">
-              <img src={p.img} alt="" />
+              <img src={p.img} alt="" loading="lazy"/>
               <div className="flex flex-row items-center justify-start gap-2">
                 {products.map((e, index) => {
                   return (
@@ -146,7 +146,7 @@ function Shop() {
                         setP((prev) => ({ ...prev, uid: currentUser }));
                       }}
                     >
-                      <img src={e.img} alt="" />
+                      <img src={e.img} alt="" loading="lazy"/>
                     </div>
                   );
                 })}
