@@ -74,6 +74,7 @@ function Signup() {
             src="https://images.pexels.com/photos/6686442/pexels-photo-6686442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
             className="w-full h-full absolute object-cover"
+              loading="lazy"
           />
         </div>
         <div className="px-20 py-10 flex flex-col gap-5 ">
