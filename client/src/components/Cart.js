@@ -109,7 +109,7 @@ function Cart({ r }) {
                   className="h-[10vh] w-full px-3 flex flex-row gap-3 justify-start items-center"
                   key={index}
                 >
-                  <img src={e.img} alt="" className="h-[10vh]" />
+                  <img src={e.img} alt="" className="h-[10vh]" loading="lazy"/>
                   <div>
                     <p className="text-md capitalize text-white">{e.title}</p>
                     <p className="text-sm capitalize text-white">{e.cc}</p>
